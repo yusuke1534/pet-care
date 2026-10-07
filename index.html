@@ -28,6 +28,7 @@ main{max-width:980px;margin:auto;padding:0 16px calc(110px + env(safe-area-inset
 .pet-strip{display:flex;gap:10px;overflow:auto;padding:4px 1px 12px;scrollbar-width:none}.pet-strip::-webkit-scrollbar{display:none}.pet-chip{min-width:84px;background:#fff;border:2px solid transparent;border-radius:20px;padding:9px 9px 8px;box-shadow:0 7px 18px #8164781a;text-align:center;cursor:pointer}.pet-chip.active{border-color:var(--pink);background:#fff8fb}.pet-chip img,.pet-chip .avatar{width:48px;height:48px;border-radius:50%;object-fit:cover;margin:auto;display:grid;place-items:center;background:#fff0f6;font-size:25px}.pet-chip b{display:block;font-size:13px;margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.add-chip{display:grid;place-items:center;color:#a45978;border-style:dashed;border-color:#f5abc7}.add-chip .plus{font-size:28px;line-height:1}
 .profile{display:grid;grid-template-columns:110px 1fr;gap:16px;align-items:center}.profile-photo{width:110px;height:110px;border-radius:28px;object-fit:cover;background:linear-gradient(145deg,#fff,#ffe6ef);box-shadow:inset 0 0 0 1px #fff,0 8px 20px #a57a8f22;display:grid;place-items:center;font-size:52px}.profile h2{margin:0 0 6px;font-size:24px}.chips{display:flex;gap:7px;flex-wrap:wrap}.tag{font-size:12px;padding:6px 9px;border-radius:999px;background:#fff;border:1px solid #f2d4df}.empty{text-align:center;padding:26px 6px}.empty .big{font-size:62px}
 .section{margin-top:16px;background:var(--card);backdrop-filter:blur(14px);border:1px solid #fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px}.section h3{font-size:16px;margin:0 0 12px;display:flex;align-items:center;gap:8px}.muted{color:var(--muted);font-size:12px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{background:linear-gradient(145deg,#fff,#fff8fb);border:1px solid #f8e6ed;border-radius:19px;padding:13px}.stat .label{font-size:11px;color:var(--muted)}.stat strong{font-size:18px;display:block;margin-top:3px}
+.page-card{position:relative;overflow:hidden;isolation:isolate}.page-card>*{position:relative;z-index:1}.page-card:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.22;background-size:155px 155px;background-repeat:repeat}.home-theme{background:linear-gradient(145deg,#ffffffee,#fff2f8e8)}.home-theme:before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='155' height='155' viewBox='0 0 155 155'%3E%3Cg fill='none' stroke='%23f29aba' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 25c6-6 16-6 22 0 5 5 6 13 1 19-5 6-13 11-23 16-10-5-18-10-23-16-5-6-4-14 1-19 6-6 16-6 22 0Z'/%3E%3Ccircle cx='108' cy='35' r='7'/%3E%3Ccircle cx='126' cy='28' r='6'/%3E%3Ccircle cx='136' cy='42' r='6'/%3E%3Cpath d='M111 50c4-10 20-9 23 2 2 8-6 14-14 11-9-3-13-7-9-13Z'/%3E%3Cpath d='M44 111c11-10 26-10 37 0'/%3E%3Cpath d='M48 96c-5-10-2-19 5-21 6-2 11 4 12 11'/%3E%3Cpath d='M78 96c5-10 2-19-5-21-6-2-11 4-12 11'/%3E%3Ccircle cx='58' cy='103' r='2' fill='%23f29aba'/%3E%3Ccircle cx='67' cy='103' r='2' fill='%23f29aba'/%3E%3Cpath d='M60 109c2 2 4 2 6 0'/%3E%3Cpath d='M115 118c5-8 17-10 24-4'/%3E%3Cpath d='M112 110l2 5 5 2-5 2-2 5-2-5-5-2 5-2Z'/%3E%3C/g%3E%3C/svg%3E")}.profile-theme{background:linear-gradient(145deg,#ffffffee,#fff7fbe8)}.profile-theme:before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='155' height='155' viewBox='0 0 155 155'%3E%3Cg fill='none' stroke='%23df96b3' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M24 32h24c6 0 10 4 10 10v18c0 6-4 10-10 10H24c-6 0-10-4-10-10V42c0-6 4-10 10-10Z'/%3E%3Ccircle cx='36' cy='47' r='5'/%3E%3Cpath d='M18 63l12-11 11 9 8-7 9 9'/%3E%3Cpath d='M101 30c6-6 16-6 22 0 5 5 6 13 1 19-5 6-13 11-23 16-10-5-18-10-23-16-5-6-4-14 1-19 6-6 16-6 22 0Z'/%3E%3Ccircle cx='43' cy='111' r='7'/%3E%3Ccircle cx='60' cy='105' r='6'/%3E%3Ccircle cx='70' cy='118' r='6'/%3E%3Cpath d='M46 126c4-10 20-9 23 2 2 8-6 14-14 11-9-3-13-7-9-13Z'/%3E%3Cpath d='M104 108h29'/%3E%3Cpath d='M104 120h18'/%3E%3Cpath d='M104 96h22'/%3E%3C/g%3E%3C/svg%3E")}.weight-theme{background:linear-gradient(145deg,#ffffffee,#f4fbffe8)}.weight-theme:before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='155' height='155' viewBox='0 0 155 155'%3E%3Cg fill='none' stroke='%2390bfd7' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 117h38l17-25 19 14 21-31 23 12'/%3E%3Cpath d='M18 125h119'/%3E%3Ccircle cx='35' cy='56' r='16'/%3E%3Cpath d='M35 56l8-8'/%3E%3Cpath d='M27 56h16'/%3E%3Cpath d='M35 48v16'/%3E%3Cpath d='M100 35l2 6 6 2-6 2-2 6-2-6-6-2 6-2Z'/%3E%3Cpath d='M123 35l1 4 4 1-4 1-1 4-1-4-4-1 4-1Z'/%3E%3Ccircle cx='112' cy='98' r='7'/%3E%3Ccircle cx='129' cy='91' r='6'/%3E%3Ccircle cx='139' cy='105' r='6'/%3E%3Cpath d='M115 113c4-10 20-9 23 2 2 8-6 14-14 11-9-3-13-7-9-13Z'/%3E%3C/g%3E%3C/svg%3E")}.care-theme{background:linear-gradient(145deg,#ffffffee,#fff9f2e8)}.care-theme:before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='155' height='155' viewBox='0 0 155 155'%3E%3Cg fill='none' stroke='%23d7a277' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M29 23h14v14h14v14H43v14H29V51H15V37h14Z'/%3E%3Cpath d='M88 27l23 23'/%3E%3Cpath d='M93 22l23 23'/%3E%3Cpath d='M78 37l13 13'/%3E%3Cpath d='M111 69c7-10 22-10 28 0'/%3E%3Ccircle cx='37' cy='108' r='7'/%3E%3Ccircle cx='54' cy='101' r='6'/%3E%3Ccircle cx='64' cy='115' r='6'/%3E%3Cpath d='M40 123c4-10 20-9 23 2 2 8-6 14-14 11-9-3-13-7-9-13Z'/%3E%3Cpath d='M99 94c6-6 16-6 22 0 5 5 6 13 1 19-5 6-13 11-23 16-10-5-18-10-23-16-5-6-4-14 1-19 6-6 16-6 22 0Z'/%3E%3C/g%3E%3C/svg%3E")}.weight-pet{background:linear-gradient(145deg,#fff,#f7fcff)}.care-pet{background:linear-gradient(145deg,#fff,#fffaf4)}
 button,.btn{border:0;font:inherit}.btn{cursor:pointer;border-radius:16px;padding:12px 14px;background:linear-gradient(145deg,#ff9fc1,#ff7eac);color:#fff;font-weight:700;box-shadow:0 8px 18px #ff8eb54c;display:inline-flex;align-items:center;justify-content:center;gap:7px}.btn:active{transform:translateY(1px);box-shadow:0 4px 10px #ff8eb53b}.btn.sub{background:linear-gradient(145deg,#fff,#fff4f8);color:#a35775;border:1px solid #f4cada;box-shadow:0 7px 15px #96637616}.btn.mint{background:linear-gradient(145deg,#9bd8c2,#72c5a8);box-shadow:0 8px 18px #62b79c45}.btn.full{width:100%}
 .actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}.actions .btn{flex:1;min-width:120px}
 .form{display:grid;gap:10px}.field label{display:block;font-size:12px;font-weight:700;margin:0 0 5px;color:#745f6b}.field input,.field select{width:100%;border:1px solid #eed9e2;border-radius:15px;padding:12px 13px;background:#fff;font-size:16px;outline:none}.field input:focus,.field select:focus{border-color:#ef9dba;box-shadow:0 0 0 3px #ffd9e755}
@@ -45,12 +46,12 @@ button,.btn{border:0;font:inherit}.btn{cursor:pointer;border-radius:16px;padding
 <header><div class="brand"><div class="logo">🐾</div><div><h1>Pet Mignon</h1><p>たいせつな家族を、かわいくまとめて管理</p></div></div></header>
 <main>
   <div class="view active" id="homeView">
-    <section class="hero">
+    <section class="hero page-card home-theme">
       <div class="pet-strip" id="petStrip"></div>
       <div id="profileArea"></div>
     </section>
 
-    <section class="section" id="infoSection">
+    <section class="section page-card profile-theme" id="infoSection">
       <h3>💗 プロフィール</h3>
       <div class="grid2" id="profileStats"></div>
       <div class="actions"><button class="btn sub full" id="editPetBtn">✏️ プロフィールを編集</button></div>
@@ -59,8 +60,8 @@ button,.btn{border:0;font:inherit}.btn{cursor:pointer;border-radius:16px;padding
 
   <div class="view" id="weightView">
     <div class="page-head"><div><h2>⚖️ 体重管理</h2><p>体重の記録と推移を確認</p></div></div>
-    <div id="weightPetSummary" class="page-pet"></div>
-    <section class="section" id="weightSection">
+    <div id="weightPetSummary" class="page-pet weight-pet"></div>
+    <section class="section page-card weight-theme" id="weightSection">
       <h3>📈 体重のきろく <span class="muted">推移をグラフで確認</span></h3>
       <div class="weight-form">
         <div class="field"><input id="weightInput" type="number" step="0.01" min="0" placeholder="例 4.25" /></div>
@@ -74,8 +75,8 @@ button,.btn{border:0;font:inherit}.btn{cursor:pointer;border-radius:16px;padding
 
   <div class="view" id="careView">
     <div class="page-head"><div><h2>💉 ワクチン・通院</h2><p>接種・診察・予定をまとめて管理</p></div></div>
-    <div id="carePetSummary" class="page-pet"></div>
-    <section class="section" id="careSection">
+    <div id="carePetSummary" class="page-pet care-pet"></div>
+    <section class="section page-card care-theme" id="careSection">
       <button class="btn full" id="addCareBtn">＋ 予定・記録を追加</button>
       <div class="medical-list" id="careList"></div>
     </section>
